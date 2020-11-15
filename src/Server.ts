@@ -31,7 +31,8 @@ app.use(
       "https://localhost:3000",
       "https://localhost:3001",
       "http://localhost:3001",
-      "https://taranek-login-server.herokuapp.com"
+      "https://taranek-login-server.herokuapp.com",
+      "https://taranek-login-app.herokuapp.com"
     ],
   })
 );
