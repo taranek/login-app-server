@@ -1,47 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2547e92-6c06-4eb9-b21a-98bdbab05b0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/development.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/production.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/test.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/nodemon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/support/LoginAgent.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/support/jasmine.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/support/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/tests/Auth.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/tests/Users.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/daos/MockDb/MockDao.mock.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/daos/MockDb/MockDb.backup.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/daos/MockDb/MockDb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/daos/User/UserDao.mock.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/daos/User/UserDao.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/User.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/preStart.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/scripts/http.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/scripts/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/scripts/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/stylesheets/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/stylesheets/users.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Auth.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Users.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/middleware.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/JwtService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/Logger.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/constants.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/functions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/users.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.prod.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="d2547e92-6c06-4eb9-b21a-98bdbab05b0b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +11,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +28,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605446228928</updated>
-      <workItem from="1605446230059" duration="70000" />
+      <workItem from="1605446230059" duration="495000" />
     </task>
     <servers />
   </component>
