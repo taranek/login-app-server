@@ -5,6 +5,7 @@ import StatusCodes from 'http-status-codes';
 import UserDao from '@daos/User/UserDao.mock';
 import { JwtService } from '@shared/JwtService';
 import { paramMissingError, loginFailedErr, cookieProps, IRequest } from '@shared/constants';
+import {adminMW} from "./middleware";
 
 const router = Router();
 const userDao = new UserDao();
@@ -60,6 +61,11 @@ router.get('/logout', (req: Request, res: Response) => {
     const { key, options } = cookieProps;
     res.clearCookie(key, options);
     return res.status(OK).end();
+});
+
+router.get('/auth', async (req: Request, res: Response) => {
+  return await adminMW(req,res,async ()=>{
+    return res.status(OK).json({loggedIn: true});})
 });
 
 
